@@ -1,62 +1,99 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title>かずやのポートフォリオサイト</title>
-    <link rel="icon" href="favicon.ico">
-    <meta name="description" content="かずやのポートフォリオサイトです">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css?2019">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>DEAR NAO</title>
+    <style>
+      .cover{
+        background: url(img/bg.png)
+        background-size: cover;
+      }
+
+    </style>
+
   </head>
   <body>
     <header>
-      <div class="container">
-        <div class="icon">
-          <img src="violet.png" alt="アイコンです" width="140" height="140">
-        </div>
-        <div class="info">
-          <h1>松田一哉</h1>
-          <p>UI/UXデザイナー見習いです</p>
-          <ul>
-            <li>
-              <a href="https://dotinstall.com" target=_blank>
-                <img src="blog.png" width="20" height="20" alt="ブログサイトへのリンク画像です">
-              </a>
-            </li>
-            <li>
-              <a href="https://dotinstall.com" target=_blank>
-                <img src="photos.png" width="20" height="20" alt="写真サイトへのリンク画像です">
-              </a>
-            </li>
-          </ul>
-        </div>
+      <div class="class text-white text-center py-5">
+        <h1 class="display-4 mb-4">DEAR NAO</h1>
       </div>
     </header>
-      <section class="works">
-        <h1>自己紹介</h1>
+    <main>
+      <section class="py-5">
+        <h2 class="text-center mb-5">人生に迷ってるあなたへ、、受け売り編</h2>
+        <div class="container">
+          <div class="mb-5 row">
+            <div class="col-sm-8 order-sm-2">
+              <h3>1つ目 嘘をつかないこと</h3>
+              <p>自分に嘘をつかない。他人にも嘘をつかない。
+                <br>やりたくないことをやらないために小さな努力をすること</p>
+            </div>
+            <div class="col-sm-4 order-sm-1">
+              <img src="img/phones.png" class="w-100 rounded-circle">
+            </div>
+          </div>
 
-        <section>
-          <img src="work1.png" alt="勇者ゲームの紹介画像" width="400" height="260">
-          <h1>剣道二段所持</h1>
-          <p>小さい頃に剣道を習っており、有段者です。</p>
-        </section>
+          <div class="mb-5 row">
+            <div class="col-sm-8 order-sm-2">
+              <h3>2つ目 takeからgiverへ</h3>
+              <p>世の中、大半の人がもらう側にいるから、意識して与える側へ移ること
+                <br>自分の利益も大事だけど、幸せになるには人のためになることをすること
+                <br>注意点があって、時間と体は他人に与えないこと。与える例は知識とか思いやりとか。自分の持ってるものや作り出せるもの</p>
+            </div>
+            <div class="col-sm-4 order-sm-1">
+              <img src="img/movie.png" class="w-100 rounded-circle">
+            </div>
+          </div>
 
-        <section>
-          <img src="work2.png" alt="宝探しゲームの紹介画像" width="400" height="260">
-          <h1>プログラミング勉強中(progate)</h1>
-          <p>HTML/CSS/Rubyが扱えます。<br>JavaScript/PHPもこれから勉強したいです。</p>
-        </section>
-
-        <section>
-          <img src="work3.png" alt="神経衰弱ゲームの紹介画像" width="400" height="260">
-          <h1>ブログ紹介</h1>
-          <p>大学では心理学を専攻してたので、それを活かしてブログを作ってます。</p>
-        </section>
-        
+          <div class="mb-5 row">
+            <div class="col-8 order-sm-2">
+              <h3>3つ目 ワクワクするほうを選ぶこと</h3>
+              <p></p>
+            </div>
+            <div class="col-4 order-sm-1">
+              <img src="img/" class="w-100 rounded-circle">
+            </div>
+          </div>
+        </div>
       </section>
 
-    <footer>
-      <p>お問い合わせはこちらまで</p>
-    </footer>
+      <section class="bg-light text-center py-5">
+        <h2 class="mb-5">おすすめ</h2>
+        <div class="container">
+          <table class="table table-hover">
+            <thead>
+              <tr><th>アニメ</th><th>マンガ</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>ヴァイオレット</td><td>Perfect Crime</td></tr>
+              <tr><td>サイコパス</td><td>働きマン</td></tr>
+              <tr><td>ノラガミ</td><td>花より男子</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
+      <section class="bg-light text-center py-5">
+        <a href="" class="btn btn-primary btn-lg">おすすめ紹介へ</a>
+      </section>
+    </main>
+    <footer class="text-center text-muted py-4">
+      Copyright dotinstall.com
+    </footer>
+      
+  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
